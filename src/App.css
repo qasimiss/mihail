@@ -1,0 +1,13 @@
+.App {
+    margin: 0 auto;
+    width: 1440px;
+    padding : 50px;
+}
+h1 {
+   text-align: center;
+   margin-bottom: 25px;
+}
+
+.buts, .score {
+    text-align: center;
+}
