@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Form from "./components/Form"
-import FormTest from './components/FormTest.jsx';
+import FormWithRef from './components/FormWithRef';
+
 
 class App extends React.Component {
   
@@ -9,8 +9,7 @@ class App extends React.Component {
 
     return (
       <div className='App'>
-        {/* <Form /> */}
-        <FormTest/>
+        <FormWithRef />
       </div>
     )
   }
