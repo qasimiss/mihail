@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import FormWithRef from './components/FormWithRef';
-
+import TimerHooks from './components/TimerHooks';
 
 class App extends React.Component {
   
@@ -9,7 +8,7 @@ class App extends React.Component {
 
     return (
       <div className='App'>
-        <FormWithRef />
+        <TimerHooks />
       </div>
     )
   }
